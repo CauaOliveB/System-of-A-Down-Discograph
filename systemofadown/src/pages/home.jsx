@@ -11,7 +11,14 @@ const Home = () => {
     <main className={styles.main}>
 
       <section className={styles.hero}>
-        <img src={banner} alt="System of a Down" className={styles.banner} />
+        <video 
+        src="/mainHomeVideo.mp4"
+        autoPlay
+        loop
+        muted
+        playsInline
+        className={styles.video}
+        ></video>
       </section>
 
       <section className={styles.members}>
