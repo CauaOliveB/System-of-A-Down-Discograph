@@ -1,9 +1,11 @@
-import {Link, useLocation, useNavigate} from "react-router-dom";
-
+import styles from "../styles/header.module.css";
+import logoHeader from "../assets/logoHeader.png"; 
 
 function Header() {
     return (
-        <h1>System of a Down</h1>
+        <header className={styles.header}>
+            <img src={logoHeader} alt="Logo Header" className={styles.logo}/>
+        </header>
     );
 }
 

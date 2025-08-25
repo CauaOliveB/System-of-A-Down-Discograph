@@ -1,0 +1,13 @@
+
+.footer {
+   
+}
+
+.footer p {
+    background-color: #8B0000;
+  color: #fff; 
+  font-family: Arial, sans-serif;
+    width: 100px;
+    height: 55px;
+    margin: 0;
+}
