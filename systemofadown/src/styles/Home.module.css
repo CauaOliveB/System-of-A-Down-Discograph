@@ -1,22 +1,40 @@
-
-.main {
-  background-color: #1C1C1C; 
+body {
+  margin: 0;
   font-family: Arial, sans-serif; 
 }
+
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  position: relative; 
+  z-index: 2;
+  background-color: #1C1C1C; 
+}
+
+.videoContainer {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh; 
+  z-index: -1; 
+  overflow: hidden; 
+}
+
 
 .video {
   width: 100%;
   height: 100%;
-}
-
-.members {
-  text-align: center;
-  margin: 2rem 0;
+  object-fit: cover; 
 }
 
 .members h2 {
   color: #00a000; 
   margin-bottom: 1.5rem;
+  text-align: center;
+  margin: 2rem 0;
 }
 
 .cards {
@@ -24,17 +42,18 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 1.5rem;
+  text-align: center;
+  margin: 2rem 0;
 }
 
 .card {
   background: #222;
   padding: 1rem;
-  max-width: 180px;
+  max-width: 230px;
 }
 
 .card img {
   width: 100%;
-  border-radius: 6px;
 }
 
 .card h3 {
@@ -47,7 +66,6 @@
   color: #ccc;
 }
 
-
 .quote {
   margin: 3rem auto;
   text-align: center;
@@ -55,6 +73,7 @@
   font-size: 1.2rem;
   color: #00a000;
   font-weight: bold;
+  padding: 0 1rem;
 }
 
 .quote cite {
@@ -64,9 +83,9 @@
   font-size: 0.9rem;
 }
 
-
 .cta {
   text-align: center;
+  padding-bottom: 3rem;
 }
 
 .cta button {
@@ -76,6 +95,7 @@
   padding: 0.8rem 1.5rem;
   cursor: pointer;
   font-size: 1rem;
+  transition: background-color 0.3s ease;
 }
 
 .cta button:hover {
