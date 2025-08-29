@@ -1,0 +1,98 @@
+
+
+.main {
+  font-family: Arial, sans-serif;
+  background-color: #1c1c1c;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.musicHeader {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.musicHeader h1 {
+  font-size: 2.5rem;
+  color: white;
+  margin: 0;
+  padding: 1rem 0;
+}
+
+.soadLive {
+  width: 100%;
+  height: auto;
+  margin-bottom: 2rem;
+}
+
+.quoteBlock {
+  width: 80%;
+  max-width: 800px;
+  background-color: #1c1c1c;
+  padding: 2rem;
+
+}
+
+.quoteBlock h2 {
+  color: #00a000;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.quoteBlock p {
+  font-style: italic;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.videoSection {
+  width: 100%;
+  max-width: 900px;
+  margin-top: 3rem;
+  padding: 0 1rem;
+}
+
+.videoItem {
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  margin-bottom: 2rem;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out;
+}
+
+.videoItem:hover {
+  transform: translateY(-5px);
+}
+
+.videoItem img {
+  width: 200px;
+  height: auto;
+  object-fit: cover;
+}
+
+.videoInfo {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.videoInfo h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.videoInfo p {
+  margin: 0.5rem 0 0;
+  font-size: 0.9rem;
+  color: #ccc;
+}
